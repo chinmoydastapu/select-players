@@ -7,7 +7,7 @@ document.getElementById('neymar-btn').addEventListener('click', function() {
 
 //Card-2
 document.getElementById('messi-btn').addEventListener('click', function() {
-    addNames('messi-btn', 'name-messi')
+    addNames('messi-btn', 'name-messi');
 });
 
 //Card-3
