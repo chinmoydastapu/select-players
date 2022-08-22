@@ -12,22 +12,176 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 </head>
 
-<body>
-    <header class="bg-top container-fluid bg-dark row">
+<body class="bg-dark">
+    <header class="custom-top-banner-style container-fluid row">
         <div class="col-4">
             <img class="img-fluid" src="images/top-banner-player.png" alt="">
         </div>
         <!-- Header title and texts -->
-        <div class="col-4 pt-5 text-light">
+        <div class="col-5 pt-5 text-light text-center">
             <h1>Select Your Best Five</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, facilis quam eum amet velit quod officiis at
                 voluptatem eveniet libero itaque, vitae exercitationem et numquam minima temporibus quisquam, ducimus
                 totam.</p>
         </div>
-        <div class="col-4">
+        <div class="col-3">
             <img class="img-fluid" src="images/top-banner-card.png" alt="">
         </div>
     </header>
+
+    <main class="container">
+        <section class="row text-light">
+            <!-- Player cards division -->
+            <div class="col-9 row">
+                <div class="row row-cols-1 row-cols-md-3 g-3">
+                    <!-- Card-1 -->
+                    <div class="col">
+                        <div class="custom-card-style card h-100">
+                            <img src="images/card-players/player-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Neymar Jr.</h5>
+                                <p class="card-text">102 Goals | 54 Assists</p>
+                            </div>
+                            <button class="btn btn-primary m-3">Select</button>
+                        </div>
+                    </div>
+                    <!-- Card-2 -->
+                    <div class="col">
+                        <div class="custom-card-style card h-100">
+                            <img src="images/card-players/player-2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Lionel Messi</h5>
+                                <p class="card-text">769 Goals | 331 Assists</p>
+                            </div>
+                            <button class="btn btn-primary m-3">Select</button>
+                        </div>
+                    </div>
+                    <!-- Card-3 -->
+                    <div class="col">
+                        <div class="custom-card-style card h-100">
+                            <img src="images/card-players/player-3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Cristiano Ronaldo</h5>
+                                <p class="card-text">340 Goals | 142 Assists</p>
+                            </div>
+                            <button class="btn btn-primary m-3">Select</button>
+                        </div>
+                    </div>
+                    <!-- Card-4 -->
+                    <div class="col">
+                        <div class="custom-card-style card h-100">
+                            <img src="images/card-players/player-4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Robert Lewandowski</h5>
+                                <p class="card-text">493 Goals | 247 Assists</p>
+                            </div>
+                            <button class="btn btn-primary m-3">Select</button>
+                        </div>
+                    </div>
+                    <!-- Card-5 -->
+                    <div class="col">
+                        <div class="custom-card-style card h-100">
+                            <img src="images/card-players/player-5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Kevin De Bruyne</h5>
+                                <p class="card-text">57 Goals | 81 Assists</p>
+                            </div>
+                            <button class="btn btn-primary m-3">Select</button>
+                        </div>
+                    </div>
+                    <!-- Card-6 -->
+                    <div class="col">
+                        <div class="custom-card-style card h-100">
+                            <img src="images/card-players/player-6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Mohamed Salah</h5>
+                                <p class="card-text">235 Goals | 171 Assists</p>
+                            </div>
+                            <button class="btn btn-primary m-3">Select</button>
+                        </div>
+                    </div>
+                    <!-- Card-7 -->
+                    <div class="col">
+                        <div class="custom-card-style card h-100">
+                            <img src="images/card-players/player-7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Kylian Mbappe</h5>
+                                <p class="card-text">56 Goals | 49 Assists</p>
+                            </div>
+                            <button class="btn btn-primary m-3">Select</button>
+                        </div>
+                    </div>
+                    <!-- Card-8 -->
+                    <div class="col">
+                        <div class="custom-card-style card h-100">
+                            <img src="images/card-players/player-8.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Zlatan Ibrahimovic</h5>
+                                <p class="card-text">570 Goals | 369 Assists</p>
+                            </div>
+                            <button class="btn btn-primary m-3">Select</button>
+                        </div>
+                    </div>
+                    <!-- Card-9 -->
+                    <div class="col">
+                        <div class="custom-card-style card h-100">
+                            <img src="images/card-players/player-9.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Harry Kane</h5>
+                                <p class="card-text">178 Goals | 95 Assists</p>
+                            </div>
+                            <button class="btn btn-primary m-3">Select</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Calculation division -->
+            <div class="col-3 mt-5">
+                <div class="row row-cols-1 g-3">
+                    <!-- Selected 5 division -->
+                    <div class="col">
+                        <div class="custom-card-style card h-100 p-3">
+                            <h3 class="text-center">Selected-V</h3> <br>
+                        </div>
+                    </div>
+
+                    <!-- Budget division -->
+                    <div class="col">
+                        <div class="custom-card-style card h-100 p-3">
+                            <!-- Title -->
+                            <h3 class="text-center">Budget</h3> <br>
+
+                            <!-- Per player costs field -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>Per Player</p>
+                                <input class="w-50" type="text">
+                            </div>
+                            <button class="btn btn-primary mt-2">Calculate</button> <br>
+                            <p>Player Expenses</p> <br>
+
+                            <!-- Total costs with Manager & Coach -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>Manager</p>
+                                <input class="w-50" type="text">
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>Coach</p>
+                                <input class="w-50" type="text">
+                            </div>
+                            <button class="btn btn-primary mt-2">Calculate Total</button> <br>
+
+                            <!-- Show total costs -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>Total Expenses</p>
+                                <p>$0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!--------- Linking the Custom JavaScript files --------->
     <script src="js/app.js"></script>

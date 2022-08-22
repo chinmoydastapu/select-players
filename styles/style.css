@@ -1,4 +1,10 @@
 /* Background of top banner */
-.bg-top {
+.custom-top-banner-style {
     padding-top: 4rem;
+    background-color: #000000;
+}
+
+/* Card styles */
+.custom-card-style {
+    background-color: #000000 !important;
 }
