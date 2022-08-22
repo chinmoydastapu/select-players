@@ -4,6 +4,18 @@
     background-color: #000000;
 }
 
+/* Header title style */
+.header-title {
+    color: #ff5e19;
+    font-family: 'Berkshire Swash';
+    font-size: 4rem;
+}
+
+/* All paragraph style */
+p {
+    color: #d2cdcd;
+}
+
 /* Card styles */
 .custom-card-style {
     background-color: #000000 !important;

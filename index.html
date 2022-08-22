@@ -8,21 +8,21 @@
     <title>Select Best Five</title>
     <!--------- Linking the custom CSS file --------->
     <link rel="stylesheet" href="styles/style.css">
+    <!--------- Linking the Berkshire Swash font --------->
+    <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
     <!--------- Linking the Bootstrap CDN Link --------->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 </head>
 
 <body class="bg-dark">
     <header class="custom-top-banner-style container-fluid row">
-        <div class="col-4">
+        <div class="col-3">
             <img class="img-fluid" src="images/top-banner-player.png" alt="">
         </div>
         <!-- Header title and texts -->
-        <div class="col-5 pt-5 text-light text-center">
-            <h1>Select Your Best Five</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, facilis quam eum amet velit quod officiis at
-                voluptatem eveniet libero itaque, vitae exercitationem et numquam minima temporibus quisquam, ducimus
-                totam.</p>
+        <div class="col-6 pt-5 text-light text-center">
+            <h1 class="header-title">Select Your Best Five</h1>
+            <p>There contains some of our best soccer players in the world. We have collected them from fanbase groups on different social media platforms. You can help us by selecting at most 5 of your favourite players. And we will be sharing some criteria according to your selection. I hope you will enjoy it.</p>
         </div>
         <div class="col-3">
             <img class="img-fluid" src="images/top-banner-card.png" alt="">
@@ -142,7 +142,7 @@
                     <!-- Selected 5 division -->
                     <div class="col">
                         <div class="custom-card-style card h-100 p-3">
-                            <h3 class="text-center">Selected-V</h3> <br>
+                            <h3 class="text-center">Selected-V</h3> <hr> <br>
                         </div>
                     </div>
 
@@ -150,7 +150,7 @@
                     <div class="col">
                         <div class="custom-card-style card h-100 p-3">
                             <!-- Title -->
-                            <h3 class="text-center">Budget</h3> <br>
+                            <h3 class="text-center">Budget</h3> <hr> <br>
 
                             <!-- Per player costs field -->
                             <div class="d-flex justify-content-between align-items-center">
@@ -158,7 +158,10 @@
                                 <input class="w-50" type="text">
                             </div>
                             <button class="btn btn-primary mt-2">Calculate</button> <br>
-                            <p>Player Expenses</p> <br>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>Player Expenses</p>
+                                <p>$0</p>
+                            </div> <br>
 
                             <!-- Total costs with Manager & Coach -->
                             <div class="d-flex justify-content-between align-items-center">
