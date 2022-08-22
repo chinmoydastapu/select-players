@@ -1,4 +1,4 @@
-/* Background of top banner */
+/* Background of top banner style */
 .custom-top-banner-style {
     padding-top: 4rem;
     background-color: #000000;
@@ -19,4 +19,9 @@ p {
 /* Card styles */
 .custom-card-style {
     background-color: #000000 !important;
+}
+
+/* Horizontal rule style */
+hr {
+    color: gray !important;
 }
