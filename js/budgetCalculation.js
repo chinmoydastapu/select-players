@@ -6,7 +6,10 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
 
     //Storing the player expense value for using it in total calculation
     playerExpenses = countSelection * inputFieldValue;
-    if (!isNaN(inputFieldValue) && inputFieldValue >= 0 && inputFieldValue !== '') {
+    
+    if (countSelection === 0) {
+        alert("You've not selected any players yet!!\nPlease select atleast one player!");
+    } else if(!isNaN(inputFieldValue) && inputFieldValue >= 0 && inputFieldValue !== '') {
         playerExpensesElement.innerText = playerExpenses;
     } else {
         alert('INVALID INPUT on Per Player field\nPlease Enter a Positive Number!!!');
