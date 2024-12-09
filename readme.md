@@ -7,7 +7,7 @@ A web application that allows users to select players and manage their selection
 ## Features
 
 - Add players to a selection list.
-- Remove players from the list.
+- Calculate expenses after buying players, manager and coach.
 - User-friendly interface with responsive design.
 - Interactive functionality for real-time updates.
 
@@ -16,7 +16,8 @@ A web application that allows users to select players and manage their selection
 ## Technologies Used
 
 - **HTML**: For the structure of the web page.
-- **CSS**: For styling and layout design.
+- **CSS**: For modifying the existing bootstrap code.
+- **Bootstrap**: For styling and layout design.
 - **JavaScript**: For dynamic functionality and interactivity.
 
 ---
